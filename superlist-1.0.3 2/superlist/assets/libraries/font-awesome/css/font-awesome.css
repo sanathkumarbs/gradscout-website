@@ -573,8 +573,8 @@
 .fa-comments:before {
   content: "\f086";
 }
-.fa-thumbs-o-up:before {
-  content: "\f087";
+.fa-graduation-cap:before {
+  content: "\f19d";
 }
 .fa-thumbs-o-down:before {
   content: "\f088";
@@ -1502,8 +1502,8 @@
 .fa-life-buoy:before,
 .fa-life-saver:before,
 .fa-support:before,
-.fa-life-ring:before {
- content: "\f1cd";
+.fa-list-alt:before {
+ content: "\f022";
 }
 .fa-circle-o-notch:before {
   content: "\f1ce";
