@@ -6146,7 +6146,7 @@ button.close {
   color: #fff; }
 
 .background-secondary {
-  background-color: #FF8359;
+  background-color: #F7A467;
   color: #fff; }
   .background-secondary h2 {
     color: #fff; }
@@ -7804,6 +7804,7 @@ h2.widgettitle {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  background-image: url('assets/img/tmp/background_image_1.jpeg');
   height: 550px;
   position: relative; }
   .hero-image-inner:after {
@@ -7826,7 +7827,8 @@ h2.widgettitle {
   .hero-image-content h1 {
     color: #fff;
     font-size: 45px;
-    font-weight: 300;
+    font-weight: 100;
+    font-family: inherit !important;
     margin: 0px 0px 30px 0px; }
   .hero-image-content p {
     color: #fff;
