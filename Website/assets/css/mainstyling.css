@@ -6146,7 +6146,7 @@ button.close {
   color: #fff; }
 
 .background-secondary {
-  background-color: #F7A467;
+  background-color: #58ACE3;
   color: #fff; }
   .background-secondary h2 {
     color: #fff; }
@@ -7887,10 +7887,10 @@ h2.widgettitle {
     .hero-image-form-wrapper button:hover {
       background-color: #00483f !important; }
 
-.hero-image-location, .hero-image-category, .hero-image-price, .hero-image-keyword {
+.hero-image-location, .hero-image-category, .hero-image-price, .hero-image-rank, .hero-image-keyword {
   height: 48px;
   position: relative; }
-  .hero-image-location:before, .hero-image-category:before, .hero-image-price:before, .hero-image-keyword:before {
+  .hero-image-location:before, .hero-image-category:before, .hero-image-price:before, .hero-image-keyword:before, .hero-image-rank:before {
     content: '\f278';
     display: block;
     font-family: 'FontAwesome';
@@ -7902,7 +7902,7 @@ h2.widgettitle {
     text-align: center;
     width: 48px;
     z-index: 99; }
-  .hero-image-location input, .hero-image-category input, .hero-image-price input, .hero-image-keyword input {
+  .hero-image-location input, .hero-image-category input, .hero-image-price input, .hero-image-rank input, .hero-image-keyword input {
     padding-left: 48px; }
 
 .hero-image-keyword:before {
@@ -7914,6 +7914,10 @@ h2.widgettitle {
 
 .hero-image-price:before {
   content: '\f155'; }
+
+.hero-image-rank:before {
+  content: '\f005';
+}
 
 /*------------------------------------------------------------------
 [ 16. Social Buttons ]
