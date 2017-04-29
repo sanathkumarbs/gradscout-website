@@ -8258,7 +8258,7 @@ h2.widgettitle {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  -webkit-backface-visiblity: hidden;
+  -webkit-backface-visiblity: hidden; 
   margin-bottom: 30px;
   overflow: hidden;
   -webkit-transform: translateZ(0px); }
