@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scaxle=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
     <link href="http://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet" type="text/css">
     <link href="assets/libraries/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -105,17 +105,17 @@
         </div><!-- /.hero-image-content -->
 
         <div class="hero-image-form-wrapper">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-sm-4 col-sm-offset-8 col-lg-4 col-lg-offset-4"> 
-                        <form method="get" action="?">
-                            <h2>Start Scouting</h2>
+                    <div class="col-lg-12"> 
+                        <form class="clearfix" method="get" action="?">
+                            <h2 class="center">Start Scouting</h2>
 
 <!--                            <div class="hero-image-keyword form-group">
                                 <input type="text" class="form-control" placeholder="Program">
                             </div><!-- /.form-group -->
-
-                            <div class="hero-image-location form-group">
+                            <div class="col-lg-3">
+                                <div class="hero-image-location form-group">
                                 <select class="form-control" title="Location" multiple>
                                     <option>Western U.S.</option>
                                     <option>Mid Western U.S.</option>
@@ -124,17 +124,31 @@
                                     
                                 </select>
                             </div><!-- /.form-group -->
-
-                            <div class="hero-image-category form-group">
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="hero-image-category form-group">
                                 <select class="form-control" title="Areas of Interest" multiple>
-                                    <option value="">Cyber Security</option>
-                                    <option value="">Data Analytics</option>
-                                    <option value="">Business Analytics</option>
-                                    <option value="">Data Science</option>
+                                    <option value="">Business Intelligence</option>
+                                    <option value="">Data Science and Analytics</option>
+                                    <option value="">Human-Computer Interaction, Human-Centered/UX Design</option>
+                                    <option value="">Management and Consulting</option>
+                                    <option value="">Information Assurance and Cyber Security
+</option>
+                                    <option value="">Information Architecture</option>
+                                    <option value="">Library Science</option>
+                                    <option value="">Computer Systems and Computer Networks</option>
+                                    <option value="">Machine Learning, Artificial Intelligence and Robotics</option>
+                                    <option value="">Computer Vision</option>
+                                    <option value="">Web and Mobile Application Development
+</option>
+                                    <option value="">Software Engineering</option>
+                                    <option value="">Distributed Systems</option>
+
                                 </select>
                             </div><!-- /.form-group -->
-
-                            <div class="hero-image-price form-group">
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="hero-image-price form-group">
                                 <select class="form-control" title="Maximum Budget">
                                     <option value="">$20000 per year</option>
                                     <option value="">$30000 per year</option>
@@ -142,8 +156,9 @@
                                     <option value="">$50000 per year</option>
                                 </select>
                             </div>
-
-                           <div class="hero-image-rank form-group">
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="hero-image-rank form-group">
                                 <select class="form-control" title="Ranking">
                                     <option value="">Top 10 ranks</option>
                                     <option value="">Top 20 ranks</option>
@@ -152,17 +167,25 @@
                                 </select>
                             </div> 
 
- 
-
-
-                            
+                            </div>                            
 <!--                            <div class="hero-image-price form-group">
                                 <input type="text" class="form-control" placeholder="Max. Price">
                             </div><!-- /.form-group -->
 
-                            <button type="submit" class="btn btn-primary btn-block"><a href="listing-row.html">Search</a></button>
-                        </form>
+<div class="col-lg-4 col-lg-offset-4">
+<button type="submit" class="btn btn-primary btn-block"><a href="listing-row.html">Search</a></button>
+
+</div>
+                              
+                        </form>  
+
+
+
+    
                     </div><!-- /.col-* -->
+
+
+
                 </div><!-- /.row -->
             </div><!-- /.container -->
         </div><!-- /.hero-image-form-wrapper -->

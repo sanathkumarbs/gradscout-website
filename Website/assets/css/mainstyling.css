@@ -7850,7 +7850,10 @@ h2.widgettitle {
   bottom: 0px;
   left: 0px;
   position: absolute;
-  right: 0px; }
+  right: 0px;
+  margin-bottom: -50px;
+  
+   }
   .hero-image-form-wrapper .dropdown-toggle, .hero-image-form-wrapper input {
     background-color: rgba(255, 255, 255, 0.9) !important;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
