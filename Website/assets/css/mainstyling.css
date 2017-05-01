@@ -7883,12 +7883,12 @@ h2.widgettitle {
     margin: 0px 0px 20px 0px;
     padding: 0px 0px 20px 0px; }
   .hero-image-form-wrapper button {
-    background-color: #0665A2;
+    background-color: rgba(255, 255, 255, 0.9);
     height: 48px;
     font-size: 15px;
     text-transform: uppercase; }
     .hero-image-form-wrapper button:hover {
-      background-color: #00483f !important; }
+      background-color: #FFC930 !important; }
 
 .hero-image-location, .hero-image-category, .hero-image-price, .hero-image-rank, .hero-image-keyword {
   height: 48px;
