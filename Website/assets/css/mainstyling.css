@@ -7112,6 +7112,7 @@ ul.dropdown-menu li a {
 .header-search {
   float: right;
   margin: 8px 0px 0px 0px;
+  
   width: 260px; }
   .header-search input {
     height: 34px;
@@ -7832,7 +7833,7 @@ h2.widgettitle {
   z-index: 10; }
   .hero-image-content h1 {
     color: #fff;
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 100;
     font-family: inherit !important;
     margin: 0px 0px 30px 0px; }
@@ -7852,12 +7853,20 @@ h2.widgettitle {
     .hero-image-content {
       display: none; } }
 
+
+/* CSS change for h1 Find your perfect graduate program  */
+
+
+
+
+
+
 .hero-image-form-wrapper {
   bottom: 0px;
   left: 0px;
   position: absolute;
   right: 0px;
-  margin-bottom: -50px;
+  margin-bottom: -70px;
   
    }
   .hero-image-form-wrapper .dropdown-toggle, .hero-image-form-wrapper input {
