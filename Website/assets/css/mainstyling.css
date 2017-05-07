@@ -6857,7 +6857,13 @@ ul.dropdown-menu li a {
   padding: 0px 45px 0px 0px;
   vertical-align: middle;
   white-space: nowrap;
-  width: 1px; }
+ /* width: 1px;
+  */
+  height: auto;
+  max-height: 100px;
+  max-width: 100%;
+  width: auto;}
+
   .header-logo a {
     color: #363636; }
     .header-logo a:active, .header-logo a:focus, .header-logo a:hover {
